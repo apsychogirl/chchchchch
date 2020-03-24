@@ -1,0 +1,16 @@
+{%- extends "layout.html" -%}
+{%- block content -%}
+<div class="wrapper-content">
+	<h1>Equipment</h1>
+	<h2>Remove equipment</h2>
+	<form action="{{url_for('deleteHost', name=host_to_delete.name[5:], group_name=group_name, url_back=url_back)}}" method="POST">
+		<ul>
+			<li>Do you want to delete the following computer?</li>
+			<li>First name: <span class="red">{{host_to_delete.name[10:]}}</span></li>
+			<li>IP address: <span class="red">{{host_to_delete.ipv4_address}}</span></li>
+		</ul>
+		<input type="submit" class="waiting" value="Si">
+	</form>
+	<a href="{{url_for(url_back)}}" class="waiting"><button>No</button></a>
+</div>
+{%- endblock -%}

@@ -1,0 +1,11 @@
+{%- extends "layout.html" -%}
+{%- block content -%}
+<div class="wrapper-content">
+	<div class="error-message">
+	Your user session has expired.
+	</div>
+	<div class="error-message">
+		To re-register please <a href="{{url_for('login')}}">click here</a>
+	</div>
+</div>
+{%- endblock -%}
