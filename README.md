@@ -11,37 +11,37 @@ This is an application to interact whith the Check Point R80 management API serv
 4. Create a virtual environment.
 
 
-python.exe -m pip install virtualenv
+>python.exe -m pip install virtualenv
 
 
-python3 -m venv venv
+>python3 -m venv venv
 
 
-virtualenv venv
+>virtualenv venv
 
 
-venv\Scripts\activate
+>venv\Scripts\activate
 
 
-pip install Flask
+>pip install Flask
 
 
-pip install requests
+>pip install requests
 
 
-pip install wtforms
+>pip install wtforms
 
 
-set FLASK_APP=app.py
+>set FLASK_APP=app.py
 
 
-set FLASK_DEBUG=1
+>set FLASK_DEBUG=1
 
 
-set FLASK_ENV=development
+>set FLASK_ENV=development
 
 
 5. Run the project using
 
 
-flask run
+>flask run
