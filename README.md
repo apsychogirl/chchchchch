@@ -5,7 +5,7 @@ This is an application to interact whith the Check Point R80 management API serv
 1. Clone the project on the local system.
 
 
->git clone https://github.com/apsychogirl/chchchchch.git
+>git clone https://github.com/apsychogirl/CheckpointR80.git
 2. In the terminal enter the path where the project is cloned.
 3. Install pip and python.
 4. Create a virtual environment.
