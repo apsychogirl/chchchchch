@@ -3,6 +3,6 @@ Flask==1.0
 itsdangerous==1.1.0
 Jinja2==2.8
 MarkupSafe==1.1.1
-requests==2.20.0
+requests==2.23.0
 Werkzeug==0.15.3
 WTForms==2.1
